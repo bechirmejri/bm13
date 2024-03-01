@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #f8f9fa;
+  --secondary-color: #343a40;
+  --text-red: #f50057;
+}
+
+.hero-text {
+  color: var(--text-red);
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.hero-description {
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.container > .nowrap{
+  flex-wrap: nowrap;
+  overflow-x:auto;
+}
+
+.like-icon{
+ fill: var(--text-red);
+ font-size: 2rem;
+ cursor: pointer;
+ transition: transform 0.5s;
+
+}
+
+.like-icon:hover{
+  transform: scale(1.2);
+}
+
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
